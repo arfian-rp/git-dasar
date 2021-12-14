@@ -66,7 +66,7 @@ git remote add <remote name> <url repo remote> //add new remote
 ```
 
 ```
-git push <remote name> <branch name> //push (send changes to github)
+git push -u <remote name> <branch name> //push (send changes to github)
 ```
 
 ```

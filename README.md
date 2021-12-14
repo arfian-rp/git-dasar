@@ -1,5 +1,7 @@
 <h1>GIT DASAR</h1>
 
+Written By Arfian
+
 ```
 git init //init repo
 ```

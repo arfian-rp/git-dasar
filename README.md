@@ -35,6 +35,10 @@ git checkout eka //change branch to eka
 ```
 
 ```
+git checkout -b <name branch> //go to branch (if not there will be created)
+```
+
+```
 <in master branch>
 git merge eka //merge eka and master
 ```
@@ -58,13 +62,25 @@ git remote -v //show all data about remote
 ```
 
 ```
-git push //push (send changes to github)
+git remote add <remote name> <url repo remote> //add new remote
 ```
 
 ```
-git fetch //see if there are any commit changes on github
+git push <remote name> <branch name> //push (send changes to github)
+```
+
+```
+git fetch <remote name> //see if there are any commit changes on github
 ```
 
 ```
 git pull //pull (reverse push)
+```
+
+```
+//if you use more than 2 remotes, do fetch first to get commit info when using graph command
+```
+
+```
+git push origin --delete <branch name> //delete branch
 ```

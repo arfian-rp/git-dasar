@@ -17,7 +17,7 @@ git log <opt name file> //show log
 ```
 
 ```
-git log --all --decorate -- oneline --graph //show visual graph
+git log --all --decorate --oneline --graph //show visual graph
 ```
 
 ```

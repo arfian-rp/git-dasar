@@ -56,5 +56,13 @@ git remote -v //show all data about remote
 ```
 
 ```
-git push //push (send changes to remote)
+git push //push (send changes to github)
+```
+
+```
+git fetch //see if there are any commit changes on github
+```
+
+```
+git pull //pull (reverse push)
 ```

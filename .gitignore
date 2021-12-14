@@ -1,3 +1,5 @@
 node_modules/
 secret.txt
 *.exe
+
+deployGithub.sh

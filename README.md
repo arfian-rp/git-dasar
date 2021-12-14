@@ -77,10 +77,17 @@ git fetch <remote name> //see if there are any commit changes on github
 git pull //pull (reverse push)
 ```
 
-```
-//if you use more than 2 remotes, do fetch first to get commit info when using graph command
-```
+<h3>
+if you use more than 2 remotes, do fetch first to get commit info when using graph command
+</h3>
 
 ```
 git push origin --delete <branch name> //delete branch
 ```
+
+<h3>
+create a .gitignore file to make some files/folders (such as node_modules) not sent to github by writing the file/folder names in it
+
+<a href="https://github.com/github/gitignore" target="_blank">link</a>
+
+</h3>

@@ -40,3 +40,17 @@ git merge eka //merge eka and master
 ```
 git checkout <7 digit first commit hash> //back to commit, change HEAD
 ```
+
+<h1>GIT REMOTE</h1>
+
+```
+git clone <link> //clone repo github ke local (kalau download tidak terhubung secara remote)
+```
+
+```
+git remote //show remote name
+```
+
+```
+git remote -v //show all data about remote
+```

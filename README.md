@@ -54,3 +54,7 @@ git remote //show remote name
 ```
 git remote -v //show all data about remote
 ```
+
+```
+git push //push (send changes to remote)
+```
